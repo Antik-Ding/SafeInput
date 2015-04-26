@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安全输入</string>
+    <string name="input_phone_number">请输入手机号：</string>
+    <string name="done">完成</string>
+    <string name="key_del">x</string>
+    <string name="mbl_no_error">输入手机好错误，请重新检查您输入的手机号码</string>
+	<string name="mbl_len_error">输入手机号长度不足，请重新输入您的手机号码</string>
+</resources>

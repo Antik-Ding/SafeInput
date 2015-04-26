@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#AAAAAA"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+    
+    <EditText 
+        android:id="@+id/call_edit"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:hint="@string/input_phone_number"/>
+  <RelativeLayout  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content" >  
+   
+        <android.inputmethodservice.KeyboardView  
+            android:id="@+id/call_keyboard"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"  
+            android:focusable="true"  
+            android:focusableInTouchMode="true"  
+            android:background="@color/gray"
+            android:keyBackground="@drawable/key_btn_selector"  
+            android:keyPreviewLayout="@layout/key_buton"
+            android:keyTextColor="@color/black"  
+            android:shadowColor="@color/white"
+            android:visibility="gone" />  
+    </RelativeLayout>
+</LinearLayout>

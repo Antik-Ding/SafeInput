@@ -32,7 +32,7 @@ public class SafeCallActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.safe_call);
+		setContentView(R.layout.safe_input);
 	}
 
 	@Override

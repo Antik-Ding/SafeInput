@@ -21,7 +21,7 @@ import android.view.Window;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class SafeCallActivity extends Activity {
+public class SafeInpitActivity extends Activity {
 	
 	private final String TAG = "SafeCallActivity";
 	private final int MOBILE_NUMBER_LENGTH = 11;
@@ -90,7 +90,7 @@ public class SafeCallActivity extends Activity {
 		public boolean onTouch(View v, MotionEvent event) {
 			
 			if(null == mKeyboard){
-				mKeyboard =	new KeyboardUtil(SafeCallActivity.this, mCallEdit);
+				mKeyboard =	new KeyboardUtil(SafeInpitActivity.this, mCallEdit);
 				mKeyboard.setKeyboardListener(mOnKeyboardListener);
 			}
 			if(false == mKeyboard.isShowed()){
